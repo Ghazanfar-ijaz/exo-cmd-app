@@ -3,7 +3,7 @@ Un programme qui demande l'utilisateur son nom, son prenom, son age.
 Si l'âge est inférieur à 18 lui afficher avec le prénom et nom correspondant:
 */
 
-const readlineSync = require('readline-Sync')
+const readlineSync = require('readline-sync')
 
 const prenom readlineSync.question('Puis-je avoir votre prénom? ')
 const nom readlineSync.question('Puis-je avoir votre nom? ')
